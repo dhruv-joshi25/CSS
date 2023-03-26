@@ -1,0 +1,39 @@
+<!--Ex.63 Create an image viewer demo in which left side few thumbnails are placed and whenever you mouse over on those
+thumbnails so that image will be displayed in centre area with enlarged size.-->
+
+<!doctype html>
+<head>
+<style>
+
+.thumb span
+{
+
+padding: 5px;
+border:dashed;
+visibility: hidden;
+position:fixed;
+left:100px;
+}
+
+.thumb:hover span
+{
+	visibility:visible;
+	position:fixed;
+	top:0px;
+}
+</style>
+
+</head>
+<body>
+    <a href="" class="thumb">
+<img src="Tulips.jpg" height="80px" width="80px">
+<span><img src="Tulips.jpg"></span>
+</a>
+<br><br>
+
+    <a href="" class="thumb">
+<img src="Desert.jpg" height="80px" width="80px">
+<span><img src="Desert.jpg"></span>
+</a>
+
+</body></html>

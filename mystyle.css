@@ -1,0 +1,15 @@
+img
+{
+opacity:0.2;
+}
+
+img:hover
+{
+opacity:1;
+}
+
+.tdred:hover {background-color:red;}
+.tdblue:hover {background-color:blue;}
+.tdgre:hover {background-color:green;}
+.tdyel:hover {background-color:yellow;}
+

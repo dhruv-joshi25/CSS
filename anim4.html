@@ -1,0 +1,31 @@
+<!--Ex.75 Create HTML page with CSS animation which moves any div box in square-path directions along with change in bgcolor and rotate in different degree (Fish Example) using Keyframes-->
+
+<html>
+<head>
+<style>
+@keyframes myanimation
+{
+    0%{left:0px;top:0px; transform: rotate(0deg) }
+
+    25%{left:200px;top:0px;transform: rotate(360deg)}
+
+    50%{left:200px;top:200px;transform: rotate(0deg)}
+
+    75%{left:0px;top:200px; transform: rotate(360deg)}
+
+    100%{left:0px;top:0px; transform: rotate(0deg)}
+}
+
+img
+{
+    animation-name: myanimation;
+    animation-duration: 8s;
+    position: relative;
+    
+}
+</style>
+</head>
+<body background="aqua1.jpg">
+<img src="fish1.png" height="100px" width="100px">
+</body>
+</html>
